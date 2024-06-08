@@ -5,7 +5,7 @@ namespace Models
         public string? Name { get; set; }
         public static Country Get()
         {
-            Country country = Helpers.Utility.GetResource<Country>(Helpers.Constants.Resources.CountryFilePath);
+            Country country = Helpers.Utility.GetResource<Country>(Constants.Resources.CountryFilePath);
             return country;
         }
     }
