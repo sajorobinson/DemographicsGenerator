@@ -4,11 +4,20 @@ namespace Helpers
 {
     public class Utility
     {
-        public static T GetRandomItem<T>(List<T> list)
+        public static Random MakeNewRandom()
         {
             Random random = new Random();
-            int randomIndex = random.Next(list.Count);
+            return random;
+        }
+        public static T GetRandomItem<T>(List<T> list)
+        {
+            int randomIndex = MakeNewRandom().Next(list.Count);
             return list[randomIndex];
+        }
+        public static int GetRandomNumber(int x, int y)
+        {
+            int randomNumber = MakeNewRandom().Next(x, y + 1);
+            return randomNumber;
         }
         public static T GetResource<T>(string filePath)
         {
