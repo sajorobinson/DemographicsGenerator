@@ -1,4 +1,4 @@
-namespace Contants
+namespace Constants
 {
     public static class PoliticalOrientation
     {
