@@ -5,7 +5,7 @@ namespace Models
         public string? Name { get; set; }
         public int SpectrumX { get; set; }
         public int SpectrumY { get; set; }
-        public PoliticalOrientation GetPoliticalOrientation()
+        public static PoliticalOrientation GetPoliticalOrientation()
         {
             PoliticalOrientation politicalOrientation = new PoliticalOrientation();
             int x = Helpers.Utility.GetRandomNumber(Constants.PoliticalOrientation.SpectrumMin, Constants.PoliticalOrientation.SpectrumMax);
@@ -14,7 +14,7 @@ namespace Models
             politicalOrientation.SpectrumY = y;
             return politicalOrientation;
         }
-        public string GetPoliticalOrientationName(PoliticalOrientation politicalOrientation)
+        public static string GetPoliticalOrientationName(PoliticalOrientation politicalOrientation)
         {
             if (politicalOrientation.SpectrumX > 0)
             {
