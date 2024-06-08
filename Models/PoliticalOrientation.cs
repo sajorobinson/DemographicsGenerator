@@ -7,11 +7,11 @@ namespace Models
         public int SpectrumY { get; set; }
         public static PoliticalOrientation GetPoliticalOrientation()
         {
-            PoliticalOrientation politicalOrientation = new PoliticalOrientation();
-            int x = Helpers.Utility.GetRandomNumber(Constants.PoliticalOrientation.SpectrumMin, Constants.PoliticalOrientation.SpectrumMax);
-            int y = Helpers.Utility.GetRandomNumber(Constants.PoliticalOrientation.SpectrumMin, Constants.PoliticalOrientation.SpectrumMax);
-            politicalOrientation.SpectrumX = x;
-            politicalOrientation.SpectrumY = y;
+            PoliticalOrientation politicalOrientation = new PoliticalOrientation
+            {
+                SpectrumX = Helpers.Utility.GetRandomNumber(Constants.PoliticalOrientation.SpectrumMin, Constants.PoliticalOrientation.SpectrumMax),
+                SpectrumY = Helpers.Utility.GetRandomNumber(Constants.PoliticalOrientation.SpectrumMin, Constants.PoliticalOrientation.SpectrumMax)
+            };
             return politicalOrientation;
         }
         public static string GetPoliticalOrientationName(PoliticalOrientation politicalOrientation)
