@@ -1,0 +1,26 @@
+[
+    {
+        "Name": "Male"
+    },
+    {
+        "Name": "Female"
+    },
+    {
+        "Name": "Non-Binary"
+    },
+    {
+        "Name": "Genderqueer"
+    },
+    {
+        "Name": "Agender"
+    },
+    {
+        "Name": "Bigender"
+    },
+    {
+        "Name": "Genderfluid"
+    },
+    {
+        "Name": "Other"
+    }
+]
