@@ -1,0 +1,32 @@
+[
+    {
+        "Name": "Excellent"
+    },
+    {
+        "Name": "Very Good"
+    },
+    {
+        "Name": "Good"
+    },
+    {
+        "Name": "Fair"
+    },
+    {
+        "Name": "Poor"
+    },
+    {
+        "Name": "Recovering"
+    },
+    {
+        "Name": "Chronically Ill"
+    },
+    {
+        "Name": "Disabled"
+    },
+    {
+        "Name": "Terminally Ill"
+    },
+    {
+        "Name": "Unknown"
+    }
+]

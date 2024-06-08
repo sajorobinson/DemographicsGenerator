@@ -2,15 +2,16 @@ namespace Models
 {
     public class Person
     {
-        public string? FirstName { get; set; }
-        public string? LastName { get; set; }
+        public Name? Name { get; set; }
+        public DateOnly Birthday { get; set; }
+        public Ethnicity? Ethnicity { get; set; }
         public Gender? Gender { get; set; }
-        public string? Address { get; set; }
-        public Town? Town { get; set; }
-        public Country? Country { get; set; }
+        public SexualOrientation? SexualOrientation { get; set; }
+        public Address? Address { get; set; }
         public Occupation? Occupation { get; set; }
         public PoliticalOrientation? PoliticalOrientation { get; set; }
-        public string? Religion { get; set; }
-        public string? EducationLevel { get; set; }
+        public Religion? Religion { get; set; }
+        public EducationalAttainment? EducationalAttainment { get; set; }
+        public HealthStatus? HealthStatus { get; set; }
     }
 }
