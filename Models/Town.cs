@@ -4,6 +4,7 @@ namespace Models
     {
         public string? Name { get; set; }
         public string? State { get; set; }
+        public string? Country { get; set; }
         public List<Person>? Population { get; set; }
         public static Town Get()
         {
