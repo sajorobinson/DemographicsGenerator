@@ -1,102 +1,127 @@
 [
     {
         "Name": "Westbridge",
-        "State": "Arboria"
+        "State": "Arboria",
+        "Country": "Examplia"
     },
     {
         "Name": "Greendale",
-        "State": "Falconia"
+        "State": "Falconia",
+        "Country": "Examplia"
     },
     {
         "Name": "Mystic Falls",
-        "State": "Eldoria"
+        "State": "Eldoria",
+        "Country": "Examplia"
     },
     {
         "Name": "Springwood",
-        "State": "Luminara"
+        "State": "Luminara",
+        "Country": "Examplia"
     },
     {
         "Name": "Bayview",
-        "State": "Valoria"
+        "State": "Valoria",
+        "Country": "Examplia"
     },
     {
         "Name": "Oakridge",
-        "State": "Brayfield"
+        "State": "Brayfield",
+        "Country": "Examplia"
     },
     {
         "Name": "Silverton",
-        "State": "Nexoria"
+        "State": "Nexoria",
+        "Country": "Examplia"
     },
     {
         "Name": "Stonehaven",
-        "State": "Ardendale"
+        "State": "Ardendale",
+        "Country": "Examplia"
     },
     {
         "Name": "Harborside",
-        "State": "Alpine"
+        "State": "Alpine",
+        "Country": "Examplia"
     },
     {
         "Name": "Shadowhollow",
-        "State": "Mistral"
+        "State": "Mistral",
+        "Country": "Examplia"
     },
     {
         "Name": "Rivertown",
-        "State": "Zenith"
+        "State": "Zenith",
+        "Country": "Examplia"
     },
     {
         "Name": "Bluelake",
-        "State": "Astoria"
+        "State": "Astoria",
+        "Country": "Examplia"
     },
     {
         "Name": "Dragon's Nest",
-        "State": "Pyrenia"
+        "State": "Pyrenia",
+        "Country": "Examplia"
     },
     {
         "Name": "Pinewood",
-        "State": "Rosalia"
+        "State": "Rosalia",
+        "Country": "Examplia"
     },
     {
         "Name": "Winterfell",
-        "State": "Glacium"
+        "State": "Glacium",
+        "Country": "Examplia"
     },
     {
         "Name": "Whispering Pines",
-        "State": "Borealis"
+        "State": "Borealis",
+        "Country": "Examplia"
     },
     {
         "Name": "Fairview",
-        "State": "Evergreen"
+        "State": "Evergreen",
+        "Country": "Examplia"
     },
     {
         "Name": "Ravenwood",
-        "State": "Duskmere"
+        "State": "Duskmere",
+        "Country": "Examplia"
     },
     {
         "Name": "Oceanview",
-        "State": "Marin"
+        "State": "Marin",
+        "Country": "Examplia"
     },
     {
         "Name": "Stormhaven",
-        "State": "Cobalt"
+        "State": "Cobalt",
+        "Country": "Samplestan"
     },
     {
         "Name": "Sunset Valley",
-        "State": "Aurora"
+        "State": "Aurora",
+        "Country": "Samplestan"
     },
     {
         "Name": "Redridge",
-        "State": "Valiant"
+        "State": "Valiant",
+        "Country": "Samplestan"
     },
     {
         "Name": "Thornfield",
-        "State": "Sylvan"
+        "State": "Sylvan",
+        "Country": "Samplestan"
     },
     {
         "Name": "Greenbrook",
-        "State": "Glendale"
+        "State": "Glendale",
+        "Country": "Samplestan"
     },
     {
         "Name": "Brightwater",
-        "State": "Skylark"
+        "State": "Skylark",
+        "Country": "Samplestan"
     }
 ]
