@@ -9,6 +9,7 @@ namespace Models
         public Ethnicity? Ethnicity { get; set; }
         public EducationalAttainment? EducationalAttainment { get; set; }
         public Occupation? Occupation { get; set; }
+        public Hobby? Hobby { get; set; }
         public HealthStatus? HealthStatus { get; set; }
         public Religion? Religion { get; set; }
         public PoliticalOrientation? PoliticalOrientation { get; set; }
