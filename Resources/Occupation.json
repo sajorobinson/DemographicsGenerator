@@ -325,5 +325,11 @@
     },
     {
         "Name": "Zoologist"
+    },
+    {
+        "Name": "Other"
+    },
+    {
+        "Name": "Prefer not to say"
     }
 ]
