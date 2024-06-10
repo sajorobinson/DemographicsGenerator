@@ -2,11 +2,11 @@ namespace Models
 {
     public class SexualOrientation
     {
-        public string? Name {get; set;}
-        public static SexualOrientation Get()
+        public string Name {get; set;} = Constants.Models.DefaultName;
+        public string? GetRandomName()
         {
             SexualOrientation sexualOrientation = Helpers.Utility.GetResource<SexualOrientation>(Constants.Resources.SexualOrientationFilePath);
-            return sexualOrientation;
-        }        
+            return sexualOrientation.Name;
+        }
     }
 }

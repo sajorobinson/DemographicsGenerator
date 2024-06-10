@@ -2,11 +2,11 @@ namespace Models
 {
     public class HealthStatus
     {
-        public string? Name { get; set; }
-        public static HealthStatus Get()
+        public string Name { get; set; } = Constants.Models.DefaultName;
+        public string GetRandomName()
         {
             HealthStatus healthStatus = Helpers.Utility.GetResource<HealthStatus>(Constants.Resources.HealthStatusFilePath);
-            return healthStatus;
+            return healthStatus.Name;
         }
     }
 }

@@ -2,11 +2,11 @@ namespace Models
 {
     public class Gender
     {
-        public string? Name { get; set; }
-        public static Gender Get()
+        public string Name { get; set; } = Constants.Models.DefaultName;
+        public string GetRandomName()
         {
             Gender gender = Helpers.Utility.GetResource<Gender>(Constants.Resources.GenderFilePath);
-            return gender;
+            return gender.Name;
         }
     }
 }
