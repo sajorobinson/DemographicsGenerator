@@ -2,7 +2,7 @@ namespace Models
 {
     public class PoliticalOrientation
     {
-        public string? Name { get; set; }
+        public string Name { get; set; } = Constants.Models.DefaultName;
         public int SpectrumX { get; set; }
         public int SpectrumY { get; set; }
         public static PoliticalOrientation GetPoliticalOrientation()

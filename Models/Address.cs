@@ -2,7 +2,7 @@ namespace Models
 {
     public class Address
     {
-        string? Street { get; set; }
-        Town? Town { get; set; }        
+        public string Street { get; set; } = "123 Fake Street";
+        public Town? Town { get; set; }
     }
 }
