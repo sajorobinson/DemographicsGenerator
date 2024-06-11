@@ -1,4 +1,4 @@
-namespace Models
+namespace DemographicsGenerator.Models
 {
     public class Hobby
     {
@@ -6,10 +6,10 @@ namespace Models
         public int Passion { get; set; }
         public string? PassionDesc { get; set; }
         public string? Desc { get; set; }
-        public string GetRandomName()
+        public static Hobby GetRandomHobby()
         {
             Hobby hobby = Helpers.Utility.GetResource<Hobby>(Constants.Resources.HobbyFilePath);
-            return hobby.Name;
+            return hobby;
         }
         public int GetHobbyPassion()
         {

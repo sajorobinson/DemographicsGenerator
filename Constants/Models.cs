@@ -1,4 +1,4 @@
-namespace Constants
+namespace DemographicsGenerator.Constants
 {
     public static class Models
     {

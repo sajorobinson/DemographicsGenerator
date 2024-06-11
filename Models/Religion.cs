@@ -1,12 +1,12 @@
-namespace Models
+namespace DemographicsGenerator.Models
 {
     public class Religion
     {
         public string Name { get; set; } = Constants.Models.DefaultName;
-        public string? GetRandomName()
+        public static Religion GetRandomReligion()
         {
             Religion religion = Helpers.Utility.GetResource<Religion>(Constants.Resources.ReligionFilePath);
-            return religion.Name;
+            return religion;
         }
     }
 }

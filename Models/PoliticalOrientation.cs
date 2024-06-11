@@ -1,10 +1,10 @@
-namespace Models
+namespace DemographicsGenerator.Models
 {
     public class PoliticalOrientation
     {
         public string Name { get; set; } = Constants.Models.DefaultName;
-        public int SpectrumX { get; set; }
-        public int SpectrumY { get; set; }
+        private int SpectrumX { get; set; }
+        private int SpectrumY { get; set; }
         public static PoliticalOrientation GetPoliticalOrientation()
         {
             PoliticalOrientation politicalOrientation = new PoliticalOrientation
@@ -16,69 +16,37 @@ namespace Models
         }
         public static string GetPoliticalOrientationName(PoliticalOrientation politicalOrientation)
         {
-            if (politicalOrientation.SpectrumX > 0)
+            switch (politicalOrientation.SpectrumX)
             {
                 // Right of centre
-                if (politicalOrientation.SpectrumY > 0)
-                {
+                case > 0 when politicalOrientation.SpectrumY > 0:
                     return "Right-Authoritarian";
-                }
-                else if (politicalOrientation.SpectrumY < 0)
-                {
+                case > 0 when politicalOrientation.SpectrumY < 0:
                     return "Right-Libertarian";
-                }
-                else if (politicalOrientation.SpectrumY == 0)
-                {
+                case > 0 when politicalOrientation.SpectrumY == 0:
                     return "Right-Centrist";
-                }
-                else
-                {
+                case > 0:
                     return "Other";
-                }
-            }
-            else if (politicalOrientation.SpectrumX < 0)
-            {
                 // Left of centre
-                if (politicalOrientation.SpectrumY > 0)
-                {
+                case < 0 when politicalOrientation.SpectrumY > 0:
                     return "Left-Authoritarian";
-                }
-                else if (politicalOrientation.SpectrumY < 0)
-                {
+                case < 0 when politicalOrientation.SpectrumY < 0:
                     return "Left-Libertarian";
-                }
-                else if (politicalOrientation.SpectrumY == 0)
-                {
+                case < 0 when politicalOrientation.SpectrumY == 0:
                     return "Left-Centrist";
-                }
-                else
-                {
+                case < 0:
                     return "Other";
-                }
-            }
-            else if (politicalOrientation.SpectrumX == 0)
-            {
                 // Centre
-                if (politicalOrientation.SpectrumY > 0)
-                {
+                case 0 when politicalOrientation.SpectrumY > 0:
                     return "Centrist-Authoritarian";
-                }
-                else if (politicalOrientation.SpectrumY < 0)
-                {
+                case 0 when politicalOrientation.SpectrumY < 0:
                     return "Centrist-Libertarian";
-                }
-                else if (politicalOrientation.SpectrumY == 0)
-                {
+                case 0 when politicalOrientation.SpectrumY == 0:
                     return "True Centrist";
-                }
-                else
-                {
+                case 0:
                     return "Other";
-                }
-            }
-            else
-            {
-                return "Other";
+                default:
+                    return "Other";
             }
         }
     }

@@ -1,8 +1,8 @@
-namespace Helpers
+namespace DemographicsGenerator.Helpers
 {
-    public class Json
+    public static class Json
     {
-        public static string ReadJsonFile(string filePath)
+        public static string GetJsonString(string filePath)
         {
             string jsonString = File.ReadAllText(filePath);
             return jsonString;

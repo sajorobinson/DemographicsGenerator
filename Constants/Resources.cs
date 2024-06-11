@@ -1,17 +1,21 @@
-namespace Constants
+using System;
+using System.IO;
+
+namespace DemographicsGenerator.Constants
 {
     public static class Resources
     {
-        public static readonly string BaseFilePath = "./Resources/";
-        public static readonly string EducationalAttainmentFilePath = BaseFilePath + "EducationalAttainment.json";
-        public static readonly string EthnicityFilePath = BaseFilePath + "Ethnicity.json";
-        public static readonly string GenderFilePath = BaseFilePath + "Gender.json";
-        public static readonly string HealthStatusFilePath = BaseFilePath + "HealthStatus.json";
-        public static readonly string HobbyFilePath = BaseFilePath + "Hobby.json";
-        public static readonly string LanguageFilePath = BaseFilePath + "Language.json";
-        public static readonly string OccupationFilePath = BaseFilePath + "Occupation.json";
-        public static readonly string ReligionFilePath = BaseFilePath + "Religion.json";
-        public static readonly string SexualOrientationFilePath = BaseFilePath + "SexualOrientation.json";
-        public static readonly string TownFilePath = BaseFilePath + "Town.json";
+        private static string BaseFilePath => Directory.GetCurrentDirectory();
+
+        public static string EducationalAttainmentFilePath => Path.Combine(BaseFilePath, "Resources", "EducationalAttainment.json");
+        public static string EthnicityFilePath => Path.Combine(BaseFilePath, "Resources", "Ethnicity.json");
+        public static string GenderFilePath => Path.Combine(BaseFilePath, "Resources", "Gender.json");
+        public static string HealthStatusFilePath => Path.Combine(BaseFilePath, "Resources", "HealthStatus.json");
+        public static string HobbyFilePath => Path.Combine(BaseFilePath, "Resources", "Hobby.json");
+        public static string LanguageFilePath => Path.Combine(BaseFilePath, "Resources", "Language.json");
+        public static string OccupationFilePath => Path.Combine(BaseFilePath, "Resources", "Occupation.json");
+        public static string ReligionFilePath => Path.Combine(BaseFilePath, "Resources", "Religion.json");
+        public static string SexualOrientationFilePath => Path.Combine(BaseFilePath, "Resources", "SexualOrientation.json");
+        public static string TownFilePath => Path.Combine(BaseFilePath, "Resources", "Town.json");
     }
 }

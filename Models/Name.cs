@@ -1,4 +1,4 @@
-namespace Models
+namespace DemographicsGenerator.Models
 {
     public class Name
     {

@@ -1,12 +1,12 @@
-namespace Models
+namespace DemographicsGenerator.Models
 {
     public class Ethnicity
     {
         public string Name { get; set; } = Constants.Models.DefaultName;
-        public string GetRandomName()
+        public static Ethnicity GetRandomEthnicity()
         {
             Ethnicity ethnicity = Helpers.Utility.GetResource<Ethnicity>(Constants.Resources.EthnicityFilePath);
-            return ethnicity.Name;
+            return ethnicity;
         }
     }
 }

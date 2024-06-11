@@ -1,27 +1,27 @@
 using System.Text.Json;
 
-namespace Helpers
+namespace DemographicsGenerator.Helpers
 {
-    public class Utility
+    public static class Utility
     {
-        public static Random MakeNewRandom()
+        public static Random GetNewRandom()
         {
             Random random = new Random();
             return random;
         }
         public static T GetRandomItem<T>(List<T> list)
         {
-            int randomIndex = MakeNewRandom().Next(list.Count);
+            int randomIndex = GetNewRandom().Next(list.Count);
             return list[randomIndex];
         }
         public static int GetRandomNumber(int x, int y)
         {
-            int randomNumber = MakeNewRandom().Next(x, y + 1);
+            int randomNumber = GetNewRandom().Next(x, y + 1);
             return randomNumber;
         }
         public static T GetResource<T>(string filePath)
         {
-            string json = Json.ReadJsonFile(filePath);
+            string json = Json.GetJsonString(filePath);
             List<T> objects = JsonSerializer.Deserialize<List<T>>(json)!;
             var target = GetRandomItem(objects);
             return target;

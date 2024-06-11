@@ -1,12 +1,12 @@
-namespace Models
+namespace DemographicsGenerator.Models
 {
     public class SexualOrientation
     {
         public string Name {get; set;} = Constants.Models.DefaultName;
-        public string? GetRandomName()
+        public static SexualOrientation GetRandomName()
         {
             SexualOrientation sexualOrientation = Helpers.Utility.GetResource<SexualOrientation>(Constants.Resources.SexualOrientationFilePath);
-            return sexualOrientation.Name;
+            return sexualOrientation;
         }
     }
 }
