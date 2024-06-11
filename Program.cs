@@ -1,5 +1,4 @@
-﻿using DemographicsGenerator.Helpers;
-using DemographicsGenerator.Models;
+﻿using DemographicsGenerator.Models;
 
 namespace DemographicsGenerator
 {
@@ -31,8 +30,9 @@ namespace DemographicsGenerator
             person.HealthStatus = HealthStatus.GetRandomHealthStatus();
             person.Hobby = Hobby.GetRandomHobby();
             person.Occupation = Occupation.GetRandomOccupation();
-            person.PoliticalOrientation.Name = PoliticalOrientation.GetPoliticalOrientationName(person.PoliticalOrientation);
-            
+            person.PoliticalOrientation.Name =
+                PoliticalOrientation.GetPoliticalOrientationName(person.PoliticalOrientation);
+
             Console.WriteLine(person.Name.First);
             Console.WriteLine(person.Name.Middle);
             Console.WriteLine(person.Name.Last);

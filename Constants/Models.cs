@@ -2,6 +2,6 @@ namespace DemographicsGenerator.Constants
 {
     public static class Models
     {
-        public static readonly string DefaultName = "Default response";
+        public static readonly string DefaultResponse = "Default response";
     }
 }
