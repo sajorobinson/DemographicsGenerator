@@ -10,12 +10,14 @@ namespace DemographicsGenerator.Models
 
         public static string GetStreet()
         {
-            List<string> directions = new List<string>();
-            directions.Add("N");
-            directions.Add("S");
-            directions.Add("E");
-            directions.Add("W");
-            directions.Add("");
+            List<string> directions =
+            [
+                "N",
+                "S",
+                "E",
+                "W",
+                ""
+            ];
             int number = Utility.GetRandomNumber(0, 1000);
             string direction = Utility.GetRandomItem(directions);
             Street street = Helpers.Utility.GetResource<Street>(Constants.Resources.StreetFilePath);
