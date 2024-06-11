@@ -11,7 +11,7 @@ namespace DemographicsGenerator.Models
             Hobby hobby = Helpers.Utility.GetResource<Hobby>(Constants.Resources.HobbyFilePath);
             return hobby;
         }
-        public int GetHobbyPassion()
+        public static int GetHobbyPassion()
         {
             int passion = Helpers.Utility.GetRandomNumber(0, 101);
             return passion;

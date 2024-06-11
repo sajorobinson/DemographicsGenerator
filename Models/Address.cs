@@ -11,7 +11,7 @@ namespace DemographicsGenerator.Models
         }
         public static Town GetTown()
         {
-            Town town = new Town();
+            Town town = Models.Town.GetRandomTown();
             return town;
         }
     }
