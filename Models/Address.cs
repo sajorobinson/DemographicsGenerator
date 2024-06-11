@@ -1,4 +1,3 @@
-using System.Text;
 using DemographicsGenerator.Helpers;
 
 namespace DemographicsGenerator.Models
