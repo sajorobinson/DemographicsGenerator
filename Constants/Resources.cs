@@ -18,6 +18,8 @@ namespace DemographicsGenerator.Constants
         public static string SexualOrientationFilePath =>
             Path.Combine(BaseFilePath, "Resources", "SexualOrientation.json");
 
+        public static string StreetFilePath => Path.Combine(BaseFilePath, "Resources", "Street.json");
+
         public static string TownFilePath => Path.Combine(BaseFilePath, "Resources", "Town.json");
     }
 }
