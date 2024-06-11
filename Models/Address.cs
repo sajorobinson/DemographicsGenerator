@@ -21,11 +21,7 @@ namespace DemographicsGenerator.Models
             int number = Utility.GetRandomNumber(0, 1000);
             string direction = Utility.GetRandomItem(directions);
             Street street = Helpers.Utility.GetResource<Street>(Constants.Resources.StreetFilePath);
-            StringBuilder fullStreet = new StringBuilder();
-            fullStreet.Append($"{number.ToString()} ");
-            fullStreet.Append($"{direction} ");
-            fullStreet.Append(street.Name);
-            return fullStreet.ToString();
+            return $"{number} {direction} {street.Name}";
         }
 
         public static Town GetTown()
