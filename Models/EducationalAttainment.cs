@@ -6,8 +6,7 @@ namespace DemographicsGenerator.Models
 
         public static EducationalAttainment GetRandomEducationalAttainment()
         {
-            EducationalAttainment educationalAttainment =
-                Helpers.Utility.GetResource<EducationalAttainment>(Constants.Resources.EducationalAttainmentFilePath);
+            EducationalAttainment educationalAttainment = Helpers.Utility.GetResource<EducationalAttainment>(Constants.Resources.EducationalAttainmentFilePath);
             return educationalAttainment;
         }
     }

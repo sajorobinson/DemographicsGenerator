@@ -6,8 +6,7 @@ namespace DemographicsGenerator.Models
 
         public static HealthStatus GetRandomHealthStatus()
         {
-            HealthStatus healthStatus =
-                Helpers.Utility.GetResource<HealthStatus>(Constants.Resources.HealthStatusFilePath);
+            HealthStatus healthStatus = Helpers.Utility.GetResource<HealthStatus>(Constants.Resources.HealthStatusFilePath);
             return healthStatus;
         }
     }
