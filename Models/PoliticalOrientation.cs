@@ -2,15 +2,14 @@ namespace DemographicsGenerator.Models
 {
     public class PoliticalOrientation
     {
+        const int SpectrumMin = -1000;
+        const int SpectrumMax = 1000;
+
         public string Name { get; set; } = Constants.Models.DefaultResponse;
 
-        private int SpectrumX { get; init; } =
-            Helpers.Utility.GetRandomNumber(Constants.PoliticalOrientation.SpectrumMin,
-                Constants.PoliticalOrientation.SpectrumMax);
+        private int SpectrumX { get; init; } = Helpers.Utility.GetRandomNumber(SpectrumMin, SpectrumMax);
 
-        private int SpectrumY { get; init; } =
-            Helpers.Utility.GetRandomNumber(Constants.PoliticalOrientation.SpectrumMin,
-                Constants.PoliticalOrientation.SpectrumMax);
+        private int SpectrumY { get; init; } = Helpers.Utility.GetRandomNumber(SpectrumMin, SpectrumMax);
 
         public static string GetPoliticalOrientationName(PoliticalOrientation politicalOrientation)
         {
