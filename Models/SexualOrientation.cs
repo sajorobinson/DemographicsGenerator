@@ -4,7 +4,7 @@ namespace DemographicsGenerator.Models
     {
         public string Name { get; set; } = Constants.Models.DefaultResponse;
 
-        public static SexualOrientation GetRandomName()
+        public static SexualOrientation GetRandomSexualOrientation()
         {
             SexualOrientation sexualOrientation =
                 Helpers.Utility.GetResource<SexualOrientation>(Constants.Resources.SexualOrientationFilePath);
