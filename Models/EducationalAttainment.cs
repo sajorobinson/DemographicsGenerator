@@ -3,7 +3,7 @@ namespace DemographicsGenerator.Models
     public class EducationalAttainment
     {
         public string Name { get; set; } = Constants.Models.DefaultResponse;
-        public int Level { get; set; }
+        public int Level { get; set; } = 4;
 
         public static EducationalAttainment GetRandomEducationalAttainment()
         {

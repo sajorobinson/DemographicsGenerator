@@ -3,6 +3,7 @@ namespace DemographicsGenerator.Models
     public class HealthStatus
     {
         public string Name { get; set; } = Constants.Models.DefaultResponse;
+        public int Level { get; set; } = 7;
 
         public static HealthStatus GetRandomHealthStatus()
         {
