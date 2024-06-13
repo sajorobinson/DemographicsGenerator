@@ -6,7 +6,8 @@ namespace DemographicsGenerator.Models
 
         public static SexualOrientation GetRandomSexualOrientation()
         {
-            SexualOrientation sexualOrientation = Helpers.Utility.GetResource<SexualOrientation>(Constants.Resources.SexualOrientationFilePath);
+            List<SexualOrientation> sexualOrientationList = Helpers.Utility.GetRandomResourceList<SexualOrientation>(Constants.Resources.SexualOrientationFilePath);
+            SexualOrientation sexualOrientation = Helpers.Utility.GetRandomResource<SexualOrientation>(sexualOrientationList);
             return sexualOrientation;
         }
     }

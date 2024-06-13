@@ -1,4 +1,4 @@
-﻿using DemographicsGenerator.Models;
+using DemographicsGenerator.Models;
 
 namespace DemographicsGenerator
 {
@@ -31,7 +31,7 @@ namespace DemographicsGenerator
             person.Gender = Gender.GetRandomGender();
             person.HealthStatus = HealthStatus.GetRandomHealthStatus();
             person.Hobby = Hobby.GetRandomHobby();
-            person.Occupation = Occupation.GetRandomOccupation();
+            person.Occupation = Occupation.GetOccupationRelevantToEducation(person.EducationalAttainment.Level);
             person.PoliticalOrientation.Name = PoliticalOrientation.GetPoliticalOrientationName(person.PoliticalOrientation);
             person.Religion = Religion.GetRandomReligion();
             person.SexualOrientation = SexualOrientation.GetRandomSexualOrientation();
@@ -49,6 +49,7 @@ namespace DemographicsGenerator
             Console.WriteLine(person.HealthStatus.Name);
             Console.WriteLine(person.Hobby.Name);
             Console.WriteLine(person.Occupation.Name);
+            Console.WriteLine(person.Occupation.EducationalLevel);
             Console.WriteLine(person.PoliticalOrientation.Name);
             Console.WriteLine(person.Religion.Name);
             Console.WriteLine(person.SexualOrientation.Name);

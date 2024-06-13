@@ -8,7 +8,8 @@ namespace DemographicsGenerator.Models
 
         public static Town GetRandomTown()
         {
-            Town town = Helpers.Utility.GetResource<Town>(Constants.Resources.TownFilePath);
+            List<Town> townList = Helpers.Utility.GetRandomResourceList<Town>(Constants.Resources.TownFilePath);
+            Town town = Helpers.Utility.GetRandomResource<Town>(townList);
             return town;
         }
     }

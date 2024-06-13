@@ -1,35 +1,46 @@
 [
-    {
-        "Name": "No Formal Education"
-    },
-    {
-        "Name": "Primary Education"
-    },
-    {
-        "Name": "Secondary Education"
-    },
-    {
-        "Name": "High School Diploma"
-    },
-    {
-        "Name": "Associate Degree"
-    },
-    {
-        "Name": "Bachelor's Degree"
-    },
-    {
-        "Name": "Master's Degree"
-    },
-    {
-        "Name": "Professional Degree"
-    },
-    {
-        "Name": "Doctorate Degree"
-    },
-    {
-        "Name": "Postdoctoral Education"
-    },
-    {
-        "Name": "Prefer not to say"
-    }
+  {
+    "Name": "No Formal Education",
+    "Level": 0
+  },
+  {
+    "Name": "Primary Education",
+    "Level": 1
+  },
+  {
+    "Name": "Secondary Education",
+    "Level": 2
+  },
+  {
+    "Name": "High School Diploma",
+    "Level": 3
+  },
+  {
+    "Name": "Associate Degree",
+    "Level": 4
+  },
+  {
+    "Name": "Bachelor's Degree",
+    "Level": 5
+  },
+  {
+    "Name": "Master's Degree",
+    "Level": 6
+  },
+  {
+    "Name": "Professional Degree",
+    "Level": 7
+  },
+  {
+    "Name": "Doctorate Degree",
+    "Level": 8
+  },
+  {
+    "Name": "Postdoctoral Education",
+    "Level": 9
+  },
+  {
+    "Name": "Prefer not to say",
+    "Level": 10
+  }
 ]

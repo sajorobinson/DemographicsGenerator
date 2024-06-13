@@ -6,7 +6,8 @@ namespace DemographicsGenerator.Models
 
         public static Gender GetRandomGender()
         {
-            Gender gender = Helpers.Utility.GetResource<Gender>(Constants.Resources.GenderFilePath);
+            List<Gender> genderList = Helpers.Utility.GetRandomResourceList<Gender>(Constants.Resources.GenderFilePath);
+            Gender gender = Helpers.Utility.GetRandomResource<Gender>(genderList);
             return gender;
         }
     }

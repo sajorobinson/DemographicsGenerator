@@ -19,7 +19,10 @@ namespace DemographicsGenerator.Models
             ];
             int number = Utility.GetRandomNumber(0, 1000);
             string direction = Utility.GetRandomItem(directions);
-            Street street = Helpers.Utility.GetResource<Street>(Constants.Resources.StreetFilePath);
+
+
+            List<Street> streetList = Helpers.Utility.GetRandomResourceList<Street>(Constants.Resources.StreetFilePath);
+            Street street = Helpers.Utility.GetRandomResource<Street>(streetList);
             return $"{number} {direction} {street.Name}";
         }
 

@@ -6,7 +6,8 @@ namespace DemographicsGenerator.Models
 
         public static Language GetRandomLanguage()
         {
-            Language language = Helpers.Utility.GetResource<Language>(Constants.Resources.LanguageFilePath);
+            List<Language> languageList = Helpers.Utility.GetRandomResourceList<Language>(Constants.Resources.LanguageFilePath);
+            Language language = Helpers.Utility.GetRandomResource<Language>(languageList);
             return language;
         }
     }

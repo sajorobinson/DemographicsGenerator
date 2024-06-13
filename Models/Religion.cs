@@ -6,7 +6,8 @@ namespace DemographicsGenerator.Models
 
         public static Religion GetRandomReligion()
         {
-            Religion religion = Helpers.Utility.GetResource<Religion>(Constants.Resources.ReligionFilePath);
+            List<Religion> religionList = Helpers.Utility.GetRandomResourceList<Religion>(Constants.Resources.ReligionFilePath);
+            Religion religion = Helpers.Utility.GetRandomResource<Religion>(religionList);
             return religion;
         }
     }

@@ -6,7 +6,8 @@ namespace DemographicsGenerator.Models
 
         public static Street GetRandomStreet()
         {
-            Street street = Helpers.Utility.GetResource<Street>(Constants.Resources.StreetFilePath);
+            List<Street> streetList = Helpers.Utility.GetRandomResourceList<Street>(Constants.Resources.StreetFilePath);
+            Street street = Helpers.Utility.GetRandomResource<Street>(streetList);
             return street;
         }
     }

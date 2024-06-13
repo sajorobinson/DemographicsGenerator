@@ -22,10 +22,15 @@ namespace DemographicsGenerator.Helpers
             return randomNumber;
         }
 
-        public static T GetResource<T>(string filePath)
+        public static List<T> GetRandomResourceList<T>(string filePath)
         {
             string json = Json.GetJsonString(filePath);
             List<T> objects = JsonSerializer.Deserialize<List<T>>(json)!;
+            return objects;
+        }
+
+        public static T GetRandomResource<T>(List<T> objects)
+        {
             var target = GetRandomItem(objects);
             return target;
         }

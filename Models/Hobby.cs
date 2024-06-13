@@ -9,7 +9,8 @@ namespace DemographicsGenerator.Models
 
         public static Hobby GetRandomHobby()
         {
-            Hobby hobby = Helpers.Utility.GetResource<Hobby>(Constants.Resources.HobbyFilePath);
+            List<Hobby> hobbyList = Helpers.Utility.GetRandomResourceList<Hobby>(Constants.Resources.HobbyFilePath);
+            Hobby hobby = Helpers.Utility.GetRandomResource<Hobby>(hobbyList);
             return hobby;
         }
 

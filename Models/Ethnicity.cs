@@ -6,7 +6,8 @@ namespace DemographicsGenerator.Models
 
         public static Ethnicity GetRandomEthnicity()
         {
-            Ethnicity ethnicity = Helpers.Utility.GetResource<Ethnicity>(Constants.Resources.EthnicityFilePath);
+            List<Ethnicity> ethnicityList = Helpers.Utility.GetRandomResourceList<Ethnicity>(Constants.Resources.EthnicityFilePath);
+            Ethnicity ethnicity = Helpers.Utility.GetRandomResource<Ethnicity>(ethnicityList);
             return ethnicity;
         }
     }

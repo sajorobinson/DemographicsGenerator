@@ -1,335 +1,59 @@
 [
-    {
-        "Name": "Accountant"
-    },
-    {
-        "Name": "Actor"
-    },
-    {
-        "Name": "Agricultural Engineer"
-    },
-    {
-        "Name": "Architect"
-    },
-    {
-        "Name": "Artist"
-    },
-    {
-        "Name": "Baker"
-    },
-    {
-        "Name": "Barista"
-    },
-    {
-        "Name": "Bartender"
-    },
-    {
-        "Name": "Biologist"
-    },
-    {
-        "Name": "Carpenter"
-    },
-    {
-        "Name": "Chef"
-    },
-    {
-        "Name": "Civil Engineer"
-    },
-    {
-        "Name": "Cleaner"
-    },
-    {
-        "Name": "Computer Programmer"
-    },
-    {
-        "Name": "Construction Worker"
-    },
-    {
-        "Name": "Dentist"
-    },
-    {
-        "Name": "Doctor"
-    },
-    {
-        "Name": "Electrician"
-    },
-    {
-        "Name": "Farmer"
-    },
-    {
-        "Name": "Firefighter"
-    },
-    {
-        "Name": "Fitness Instructor"
-    },
-    {
-        "Name": "Flight Attendant"
-    },
-    {
-        "Name": "Graphic Designer"
-    },
-    {
-        "Name": "Hairdresser"
-    },
-    {
-        "Name": "Journalist"
-    },
-    {
-        "Name": "Judge"
-    },
-    {
-        "Name": "Lawyer"
-    },
-    {
-        "Name": "Librarian"
-    },
-    {
-        "Name": "Lifeguard"
-    },
-    {
-        "Name": "Machinist"
-    },
-    {
-        "Name": "Mechanic"
-    },
-    {
-        "Name": "Musician"
-    },
-    {
-        "Name": "Nurse"
-    },
-    {
-        "Name": "Painter"
-    },
-    {
-        "Name": "Paramedic"
-    },
-    {
-        "Name": "Pharmacist"
-    },
-    {
-        "Name": "Photographer"
-    },
-    {
-        "Name": "Physicist"
-    },
-    {
-        "Name": "Pilot"
-    },
-    {
-        "Name": "Plumber"
-    },
-    {
-        "Name": "Police Officer"
-    },
-    {
-        "Name": "Politician"
-    },
-    {
-        "Name": "Receptionist"
-    },
-    {
-        "Name": "Salesperson"
-    },
-    {
-        "Name": "Scientist"
-    },
-    {
-        "Name": "Sculptor"
-    },
-    {
-        "Name": "Security Guard"
-    },
-    {
-        "Name": "Software Developer"
-    },
-    {
-        "Name": "Teacher"
-    },
-    {
-        "Name": "Truck Driver"
-    },
-    {
-        "Name": "Veterinarian"
-    },
-    {
-        "Name": "Waiter/Waitress"
-    },
-    {
-        "Name": "Web Developer"
-    },
-    {
-        "Name": "Writer"
-    },
-    {
-        "Name": "Zoologist"
-    },
-    {
-        "Name": "Actor"
-    },
-    {
-        "Name": "Agricultural Engineer"
-    },
-    {
-        "Name": "Architect"
-    },
-    {
-        "Name": "Artist"
-    },
-    {
-        "Name": "Baker"
-    },
-    {
-        "Name": "Barista"
-    },
-    {
-        "Name": "Bartender"
-    },
-    {
-        "Name": "Biologist"
-    },
-    {
-        "Name": "Carpenter"
-    },
-    {
-        "Name": "Chef"
-    },
-    {
-        "Name": "Civil Engineer"
-    },
-    {
-        "Name": "Cleaner"
-    },
-    {
-        "Name": "Computer Programmer"
-    },
-    {
-        "Name": "Construction Worker"
-    },
-    {
-        "Name": "Dentist"
-    },
-    {
-        "Name": "Doctor"
-    },
-    {
-        "Name": "Electrician"
-    },
-    {
-        "Name": "Farmer"
-    },
-    {
-        "Name": "Firefighter"
-    },
-    {
-        "Name": "Fitness Instructor"
-    },
-    {
-        "Name": "Flight Attendant"
-    },
-    {
-        "Name": "Graphic Designer"
-    },
-    {
-        "Name": "Hairdresser"
-    },
-    {
-        "Name": "Journalist"
-    },
-    {
-        "Name": "Judge"
-    },
-    {
-        "Name": "Lawyer"
-    },
-    {
-        "Name": "Librarian"
-    },
-    {
-        "Name": "Lifeguard"
-    },
-    {
-        "Name": "Machinist"
-    },
-    {
-        "Name": "Mechanic"
-    },
-    {
-        "Name": "Musician"
-    },
-    {
-        "Name": "Nurse"
-    },
-    {
-        "Name": "Painter"
-    },
-    {
-        "Name": "Paramedic"
-    },
-    {
-        "Name": "Pharmacist"
-    },
-    {
-        "Name": "Photographer"
-    },
-    {
-        "Name": "Physicist"
-    },
-    {
-        "Name": "Pilot"
-    },
-    {
-        "Name": "Plumber"
-    },
-    {
-        "Name": "Police Officer"
-    },
-    {
-        "Name": "Politician"
-    },
-    {
-        "Name": "Receptionist"
-    },
-    {
-        "Name": "Salesperson"
-    },
-    {
-        "Name": "Scientist"
-    },
-    {
-        "Name": "Sculptor"
-    },
-    {
-        "Name": "Security Guard"
-    },
-    {
-        "Name": "Software Developer"
-    },
-    {
-        "Name": "Teacher"
-    },
-    {
-        "Name": "Truck Driver"
-    },
-    {
-        "Name": "Veterinarian"
-    },
-    {
-        "Name": "Waiter/Waitress"
-    },
-    {
-        "Name": "Web Developer"
-    },
-    {
-        "Name": "Writer"
-    },
-    {
-        "Name": "Zoologist"
-    },
-    {
-        "Name": "Other"
-    },
-    {
-        "Name": "Prefer not to say"
-    }
+  { "Name": "Accountant", "EducationalLevel": 5 },
+  { "Name": "Actor", "EducationalLevel": 2 },
+  { "Name": "Agricultural Engineer", "EducationalLevel": 5 },
+  { "Name": "Architect", "EducationalLevel": 7 },
+  { "Name": "Artist", "EducationalLevel": 3 },
+  { "Name": "Baker", "EducationalLevel": 2 },
+  { "Name": "Barista", "EducationalLevel": 1 },
+  { "Name": "Bartender", "EducationalLevel": 2 },
+  { "Name": "Biologist", "EducationalLevel": 6 },
+  { "Name": "Carpenter", "EducationalLevel": 3 },
+  { "Name": "Chef", "EducationalLevel": 3 },
+  { "Name": "Civil Engineer", "EducationalLevel": 5 },
+  { "Name": "Cleaner", "EducationalLevel": 0 },
+  { "Name": "Computer Programmer", "EducationalLevel": 5 },
+  { "Name": "Construction Worker", "EducationalLevel": 2 },
+  { "Name": "Dentist", "EducationalLevel": 7 },
+  { "Name": "Doctor", "EducationalLevel": 8 },
+  { "Name": "Electrician", "EducationalLevel": 3 },
+  { "Name": "Farmer", "EducationalLevel": 1 },
+  { "Name": "Firefighter", "EducationalLevel": 3 },
+  { "Name": "Fitness Instructor", "EducationalLevel": 3 },
+  { "Name": "Flight Attendant", "EducationalLevel": 2 },
+  { "Name": "Graphic Designer", "EducationalLevel": 4 },
+  { "Name": "Hairdresser", "EducationalLevel": 1 },
+  { "Name": "Journalist", "EducationalLevel": 5 },
+  { "Name": "Judge", "EducationalLevel": 7 },
+  { "Name": "Lawyer", "EducationalLevel": 7 },
+  { "Name": "Librarian", "EducationalLevel": 5 },
+  { "Name": "Lifeguard", "EducationalLevel": 1 },
+  { "Name": "Machinist", "EducationalLevel": 3 },
+  { "Name": "Mechanic", "EducationalLevel": 3 },
+  { "Name": "Musician", "EducationalLevel": 3 },
+  { "Name": "Nurse", "EducationalLevel": 4 },
+  { "Name": "Painter", "EducationalLevel": 2 },
+  { "Name": "Paramedic", "EducationalLevel": 4 },
+  { "Name": "Pharmacist", "EducationalLevel": 7 },
+  { "Name": "Photographer", "EducationalLevel": 2 },
+  { "Name": "Physicist", "EducationalLevel": 8 },
+  { "Name": "Pilot", "EducationalLevel": 5 },
+  { "Name": "Plumber", "EducationalLevel": 3 },
+  { "Name": "Police Officer", "EducationalLevel": 3 },
+  { "Name": "Politician", "EducationalLevel": 5 },
+  { "Name": "Receptionist", "EducationalLevel": 2 },
+  { "Name": "Salesperson", "EducationalLevel": 2 },
+  { "Name": "Scientist", "EducationalLevel": 8 },
+  { "Name": "Sculptor", "EducationalLevel": 3 },
+  { "Name": "Security Guard", "EducationalLevel": 2 },
+  { "Name": "Software Developer", "EducationalLevel": 5 },
+  { "Name": "Teacher", "EducationalLevel": 5 },
+  { "Name": "Truck Driver", "EducationalLevel": 2 },
+  { "Name": "Veterinarian", "EducationalLevel": 7 },
+  { "Name": "Waiter/Waitress", "EducationalLevel": 1 },
+  { "Name": "Web Developer", "EducationalLevel": 5 },
+  { "Name": "Writer", "EducationalLevel": 4 },
+  { "Name": "Zoologist", "EducationalLevel": 6 },
+  { "Name": "Other", "EducationalLevel": 10 },
+  { "Name": "Prefer not to say", "EducationalLevel": 10 }
 ]
