@@ -1,35 +1,42 @@
 [
-    {
-        "Name": "Excellent"
-    },
-    {
-        "Name": "Very Good"
-    },
-    {
-        "Name": "Good"
-    },
-    {
-        "Name": "Fair"
-    },
-    {
-        "Name": "Poor"
-    },
-    {
-        "Name": "Recovering"
-    },
-    {
-        "Name": "Chronically Ill"
-    },
-    {
-        "Name": "Disabled"
-    },
-    {
-        "Name": "Terminally Ill"
-    },
-    {
-        "Name": "Unknown"
-    },
-    {
-        "Name": "Prefer not to say"
-    }
+  {
+    "Name": "Excellent",
+    "Level": 10
+  },
+  {
+    "Name": "Very Good",
+    "Level": 9
+  },
+  {
+    "Name": "Good",
+    "Level": 8
+  },
+  {
+    "Name": "Fair",
+    "Level": 7
+  },
+  {
+    "Name": "Poor",
+    "Level": 6
+  },
+  {
+    "Name": "Recovering",
+    "Level": 5
+  },
+  {
+    "Name": "Chronically Ill",
+    "Level": 4
+  },
+  {
+    "Name": "Terminally Ill",
+    "Level": 3
+  },
+  {
+    "Name": "Unknown",
+    "Level": 2
+  },
+  {
+    "Name": "Prefer not to say",
+    "Level": 1
+  }
 ]
