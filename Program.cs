@@ -17,7 +17,9 @@ namespace DemographicsGenerator
                 HealthStatus = new HealthStatus(),
                 Hobby = new Hobby(),
                 Occupation = new Occupation(),
-                PoliticalOrientation = new PoliticalOrientation()
+                PoliticalOrientation = new PoliticalOrientation(),
+                Religion = new Religion(),
+                SexualOrientation = new SexualOrientation()
             };
             person.Name.First = Name.GetFirst();
             person.Name.Middle = Name.GetMiddle();
@@ -32,6 +34,8 @@ namespace DemographicsGenerator
             person.Occupation = Occupation.GetRandomOccupation();
             person.PoliticalOrientation.Name =
                 PoliticalOrientation.GetPoliticalOrientationName(person.PoliticalOrientation);
+            person.Religion = Religion.GetRandomReligion();
+            person.SexualOrientation = SexualOrientation.GetRandomSexualOrientation();
 
             Console.WriteLine(person.Name.First);
             Console.WriteLine(person.Name.Middle);
@@ -47,6 +51,8 @@ namespace DemographicsGenerator
             Console.WriteLine(person.Hobby.Name);
             Console.WriteLine(person.Occupation.Name);
             Console.WriteLine(person.PoliticalOrientation.Name);
+            Console.WriteLine(person.Religion.Name);
+            Console.WriteLine(person.SexualOrientation.Name);
         }
     }
 }

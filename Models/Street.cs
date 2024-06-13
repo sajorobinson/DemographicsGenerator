@@ -1,12 +1,13 @@
-namespace DemographicsGenerator.Models;
-
-public class Street
+namespace DemographicsGenerator.Models
 {
-    public string Name { get; set; } = "123 Fake Street";
-
-    public static Street GetRandomStreet()
+    public class Street
     {
-        Street street = Helpers.Utility.GetResource<Street>(Constants.Resources.StreetFilePath);
-        return street;
+        public string Name { get; set; } = "123 Fake Street";
+
+        public static Street GetRandomStreet()
+        {
+            Street street = Helpers.Utility.GetResource<Street>(Constants.Resources.StreetFilePath);
+            return street;
+        }
     }
 }
