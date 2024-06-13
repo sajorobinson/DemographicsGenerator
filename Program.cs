@@ -32,8 +32,7 @@ namespace DemographicsGenerator
             person.HealthStatus = HealthStatus.GetRandomHealthStatus();
             person.Hobby = Hobby.GetRandomHobby();
             person.Occupation = Occupation.GetRandomOccupation();
-            person.PoliticalOrientation.Name =
-                PoliticalOrientation.GetPoliticalOrientationName(person.PoliticalOrientation);
+            person.PoliticalOrientation.Name = PoliticalOrientation.GetPoliticalOrientationName(person.PoliticalOrientation);
             person.Religion = Religion.GetRandomReligion();
             person.SexualOrientation = SexualOrientation.GetRandomSexualOrientation();
 
