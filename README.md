@@ -1,6 +1,6 @@
 # DemographicsGenerator
 
-A learning project to output simple demographics information.
+A learning exercise to output simple demographics information.
 
 ## Status
 
