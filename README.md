@@ -8,9 +8,11 @@ This project is a **work in progress**.
 
 ## Overview
 
-This is a simple project for me to practice object oriented programming in C#. My main focus here was interacting with JSON files and turning them into class objects.
+This is a simple project for me to practice object oriented programming in C#. My main focus here was learning how to interact with JSON files and turn them into class objects.
 
 This program defines a `Person` object that consists of several strings selected from JSON files. The goal is to build a randomly generated "profile" of a person.
+
+The end goal of this program is to use as a fun tool for worldbuilding or in table-top role playing games. If I have a bank of data for a specific world I'm writing about, I can populate it in this program and generate basic characters on the fly.
 
 ## Learning objectives
 
