@@ -13,23 +13,19 @@ namespace DemographicsGenerator.Models
                 "relevant",
                 "deviation"
             };
+
             string choice = Helpers.Utility.GetRandomItem<string>(options);
 
-            if (choice == "random")
+            switch (choice)
             {
-                return GetRandomOccupation();
-            }
-            else if (choice == "relevant")
-            {
-                return GetRandomOccupationRelevantToEducation(educationLevel);
-            }
-            else if (choice == "deviation")
-            {
-                return GetRandomOccupationWithinDeviationToEducation(educationLevel, possibleDeviation);
-            }
-            else
-            {
-                return GetRandomOccupation();
+                case "random":
+                    return GetRandomOccupation();
+                case "relevant":
+                    return GetRandomOccupationRelevantToEducation(educationLevel);
+                case "deviation":
+                    return GetRandomOccupationWithinDeviationToEducation(educationLevel, possibleDeviation);
+                default:
+                    return GetRandomOccupation();
             }
         }
 
